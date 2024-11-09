@@ -419,6 +419,10 @@ main.sobre-aberto ~ .grid-bola {
         pointer-events: none;
     }
 
+    main:not(.sobre-aberto) ~ nav {
+        pointer-events: all;
+    }
+
     nav * {
         grid-column: 2 / 5;
     }
